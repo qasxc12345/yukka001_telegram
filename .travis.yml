@@ -23,9 +23,9 @@ deploy:
     local_dir: deploy # S3로 올릴 디렉토리 대상 (before_deploy에서 생성함)
     acl: public_read
     wait-until-deployed: true
-#    on:
+    on:
 #      repo: qasxc12345/aws-lambda-telegram-yukka001 # 저장소 이름
-#      branch: master
+      branch: master
 
 after_deploy:
   - echo "S3 업로드 끝났습니다."
