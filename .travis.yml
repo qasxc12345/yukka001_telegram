@@ -24,7 +24,7 @@ deploy:
     acl: public_read
     wait-until-deployed: true
     on:
-      repo: qasxc12345/yukka001_telegram # 저장소 이름
+      repo: qasxc/aws-lambda-telegram-yukka001 # 저장소 이름
       branch: master
 
 after_deploy:
