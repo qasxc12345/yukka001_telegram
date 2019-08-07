@@ -24,7 +24,7 @@ deploy:
     acl: public_read
     wait-until-deployed: true
     on:
-      repo: aws-lambda-telegram-yukka001 # 저장소 이름
+      repo: yukka001_s3_uploader/aws-lambda-telegram-yukka001 # 저장소 이름
       branch: master
 
 after_deploy:
